@@ -7,7 +7,6 @@ from blog.views import PostViewSet
 
 
 router = DefaultRouter()
-
 router.register(
     r'posts',
     PostViewSet,
